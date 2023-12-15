@@ -17,7 +17,7 @@ Building a human-virus structural interaction network (SIN), resolving protein-p
 1. Navigate to the `scripts` directory.  
 `$ cd scripts`
 
-2. Follow the instructions in the `instructions.bash` script. Below are the main steps in this pipeline:
+2. Follow the instructions in the [`instructions.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/instructions.bash) script. Below are the main steps in this pipeline:
 	1. Build a human-virus SIN and determine interaction interfaces.
 	2. Map interfacial residues back onto human target proteins and categorize them.
 	3. Determine evolutionary conservation of different PPI interfaces.
