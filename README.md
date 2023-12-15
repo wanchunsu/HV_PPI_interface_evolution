@@ -11,7 +11,7 @@ Building a human-virus structural interaction network (SIN), resolving protein-p
 2. Navigate to the downloaded folder.  
 `$ cd HV_PPI_interface_evolution`
 
-3. Install requirements listed in `dependencies.txt`. 
+3. Install requirements listed in [`dependencies.txt`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/dependencies.txt). 
 
 ## Usage
 1. Navigate to the `scripts` directory.  
