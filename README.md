@@ -1,6 +1,6 @@
 # Evolution of human-virus PPI interfaces
 
-Building a human-virus structural interaction network (SIN), resolving PPI interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
+Building a human-virus structural interaction network (SIN), resolving protein-protein interaction (PPI) interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
 
 
 
@@ -9,7 +9,7 @@ Building a human-virus structural interaction network (SIN), resolving PPI inter
 `$ git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'`
 
 2. Navigate to the downloaded folder.  
-`$ cd human_virus_PPI_interface_evolution`
+`$ cd HV_PPI_interface_evolution`
 
 3. Install requirements listed in `dependencies.txt`. 
 
