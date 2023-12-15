@@ -9,7 +9,7 @@ Building a human-virus structural interaction network (SIN), resolving PPI inter
 `$ git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'`
 
 2. Navigate to the downloaded folder.  
-`$ cd human_virus_PPI_interface_evolution`
+`$ cd HV_PPI_interface_evolution`
 
 3. Install requirements listed in `dependencies.txt`. 
 
