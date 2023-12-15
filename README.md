@@ -1,6 +1,6 @@
 # Evolution of human-virus PPI interfaces
 
-Building a human-virus structural interaction network (SIN), resolving PPI interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
+Building a human-virus structural interaction network (SIN), resolving protein-protein interaction (PPI) interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
 
 
 
