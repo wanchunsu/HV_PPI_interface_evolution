@@ -2,8 +2,6 @@
 
 Building a human-virus structural interaction network (SIN), resolving protein-protein interaction (PPI) interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
 
-
-
 ## Getting started
 1. Clone this repository.  
 `$ git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'`
