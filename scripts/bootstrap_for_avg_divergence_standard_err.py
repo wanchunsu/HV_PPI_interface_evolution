@@ -13,7 +13,7 @@ import numpy as np
 import argparse
 """ 
 For specific residue type r with length n do, for each of the 19 organisms, 
-	1. Get list of 0/1s representing no gap/gap or no substitution/substitution at each target protein residue when comapred to organism ortholog
+	1. Get list of 0/1s representing no gap/gap or no substitution/substitution at each target protein residue when compared to organism ortholog
 	2. Sample with replacement to get a list of length n 0/1s
 	3. Compute % divergence (i.e. [sum(0/1s)/n] * 100%)
 Take the avg of the 19 % divergences (1 per organism) => this will be one divergence value
