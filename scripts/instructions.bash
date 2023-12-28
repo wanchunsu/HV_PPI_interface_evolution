@@ -11,6 +11,7 @@
 ### Downloading and processing IntAct data for human-virus binary PPIs
 
 # 1. Go to http://www.ebi.ac.uk/legacy-intact/query/annot:%22dataset:virus%22?conversationContext=8. This is the virus PPI dataset provided by IntAct.
+#	Or alternatively, navigate to https://www.ebi.ac.uk/intact/download/datasets#computationally and download the xml version of this dataset.
 
 # 2. Make folder to save data: 
 mkdir ../data/IntAct_human_virus
