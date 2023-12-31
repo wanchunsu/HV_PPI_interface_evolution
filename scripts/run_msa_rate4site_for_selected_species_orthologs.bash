@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script that automates MSA construction and rate4site analysis
+# Script that automates MSA construction and rate4site analyses
 
 # We will have 4 types of results  -- just for comparison purposes:
 
@@ -13,8 +13,8 @@
 # We will pick the Rate4site results using species tree and mean-normalized scores
 
 
-### Do Steps 1 and 2 manually    
-### Step 1. Step 2. Make list of species (scientific name) and a mapping file (common name \t scientific name) 
+### Do Steps 1 and 2 manually (The outputs of these two steps are available in the data directory)    
+### Step 1. Make list of species (scientific name) and a mapping file (common name \t scientific name) 
 ### Step 2. Make species tree with the target protein and the orthologs of interest ### (Done manually before running this script)
 
 
