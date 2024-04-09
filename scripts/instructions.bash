@@ -11,7 +11,6 @@
 ### Downloading and processing IntAct data for human-virus binary PPIs
 
 # 1. Go to http://www.ebi.ac.uk/legacy-intact/query/annot:%22dataset:virus%22?conversationContext=8. This is the virus PPI dataset provided by IntAct.
-#	Or alternatively, navigate to https://www.ebi.ac.uk/intact/download/datasets#computationally and download the xml version of this dataset.
 
 # 2. Make folder to save data: 
 mkdir ../data/IntAct_human_virus
@@ -297,9 +296,10 @@ python3 get_per_protein_divergence_of_orthologs_in_closely_related_species.py -f
 python3 bootstrap_for_avg_per_protein_divergence_standard_err.py -f "v_target_h" -o orthologs
 
 
-### PART 7: Rate4Site ###
+### PART 7: Site-specific dN/dS ###
 
-### Get per-residue conservation using phylogenetic information and species specific orthologs from above
+### Get phylogenetic information and make MSAs using species specific orthologs from above 
+# (these results will be used for both site-specific and binned dN/dS)
 
 # 1. Make list of scientific names for the selected organisms
 # and create a mapping file with common name and corresponding scientific name (tab separated).
@@ -312,10 +312,8 @@ python3 bootstrap_for_avg_per_protein_divergence_standard_err.py -f "v_target_h"
 # `taxnames_19_orthologs.nwk` 
 
 # 3. Construct MSAs, run Rate4Site and calculate overall Rate4Site scores.
-bash run_msa_rate4site_for_selected_species_orthologs.bash 19_orthologs taxnames_19_orthologs.nwk orthologs
+bash construct_msas.bash
 
-
-### PART 8: dN/dS ###
 
 ### Get site-specific dN/dS 
 
@@ -346,3 +344,12 @@ python3 parse_tblastn_results.py
 
 # 8. Create protein and codon MSAs, compute dN/dS, and calculate overall dN/dS
 bash calc_site_specific_dnds.bash
+
+
+### PART 8: Binned dN/dS ###
+
+# 1. Make folder to store binned dnds input and output files
+mkdir ../data/binned_dnds
+
+# 2. Run binned dN/dS scripts
+bash get_binned_dnds.bash
