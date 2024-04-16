@@ -26,7 +26,7 @@ Building a human-virus structural interaction network (SIN), resolving protein-p
 * **Python 3.9.12**
 * **BLAST 2.13.0** (see https://www.ncbi.nlm.nih.gov/books/NBK52640/ for installation guide)
 * **DSSP (mkdssp)** (installed in the [`install_dssp.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/install_dssp.bash) script)
-* **MAFFT v7.490** (installed in the [`construct_MSAs.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/cosntruct_msas.bash) script)
+* **MAFFT v7.490** (installed in the [`construct_msas.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/construct_msas.bash) script)
 * **PAML** (installed in the [`get_binned_dnds.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/get_binned_dnds.bash) script)
 * **PAL2NAL v14** (installed in the [`calc_site_specific_dnds.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/calc_site_specific_dnds.bash) script)
 * **HyPhy 2.5.40** (installed in the [`calc_site_specific_dnds.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/calc_site_specific_dnds.bash) script)
