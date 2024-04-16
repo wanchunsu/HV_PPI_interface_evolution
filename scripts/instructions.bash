@@ -311,7 +311,7 @@ python3 bootstrap_for_avg_per_protein_divergence_standard_err.py -f "v_target_h"
 # The species tree is already included in ../data/homologs_and_conservation/orthologs folder as
 # `taxnames_19_orthologs.nwk` 
 
-# 3. Construct MSAs, run Rate4Site and calculate overall Rate4Site scores.
+# 3. Construct MSAs.
 bash construct_msas.bash
 
 
