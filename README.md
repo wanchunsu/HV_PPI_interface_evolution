@@ -2,22 +2,28 @@
 
 Building a human-virus structural interaction network (SIN), resolving protein-protein interaction (PPI) interfaces, mapping and categorizing interfaces, and computing the evolutionary rates of different PPI interfaces.
 
-Associated paper (by Su, W.-C. & Xia, Y.): [`Virus targeting as a dominant driver of interfacial evolution in the structurally resolved human-virus protein-protein interaction network.`](https://authors.elsevier.com/a/1khA88YyDfuZ6X)
+Associated paper (by Su, W.-C. & Xia, Y.): [`Virus targeting as a dominant driver of interfacial evolution in the structurally resolved human-virus protein-protein interaction network.`](https://doi.org/10.1016/j.cels.2025.101202)
 
 ## Getting started
 1. Clone this repository.  
-`$ git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'`
+```bash
+git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'
+```
 
 2. Navigate to the downloaded folder.  
-`$ cd HV_PPI_interface_evolution`
+```bash
+cd HV_PPI_interface_evolution
+```
 
-3. Install requirements listed in [`dependencies.txt`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/dependencies.txt). 
+4. Install requirements listed in [`dependencies.txt`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/dependencies.txt). 
 
 ## Usage
 1. Navigate to the `scripts` directory.  
-`$ cd scripts`
+```bash
+cd scripts
+```
 
-2. Follow the instructions in the [`instructions.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/instructions.bash) script. Below are the main steps in this pipeline:
+3. Follow the instructions in the [`instructions.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/instructions.bash) script. Below are the main steps in this pipeline:
 	1. Build a human-virus SIN and resolve interaction interfaces.
 	2. Map interfacial residues back onto human target proteins and categorize them.
 	3. Determine the evolutionary rates of different PPI interfaces.
