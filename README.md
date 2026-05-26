@@ -15,7 +15,7 @@ git clone 'https://github.com/wanchunsu/HV_PPI_interface_evolution.git'
 cd HV_PPI_interface_evolution
 ```
 
-4. Install requirements listed in [`dependencies.txt`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/dependencies.txt). 
+3. Install requirements listed in [`dependencies.txt`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/dependencies.txt). 
 
 ## Usage
 1. Navigate to the `scripts` directory.  
@@ -23,7 +23,7 @@ cd HV_PPI_interface_evolution
 cd scripts
 ```
 
-3. Follow the instructions in the [`instructions.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/instructions.bash) script. Below are the main steps in this pipeline:
+2. Follow the instructions in the [`instructions.bash`](https://github.com/wanchunsu/HV_PPI_interface_evolution/blob/main/scripts/instructions.bash) script. Below are the main steps in this pipeline:
 	1. Build a human-virus SIN and resolve interaction interfaces.
 	2. Map interfacial residues back onto human target proteins and categorize them.
 	3. Determine the evolutionary rates of different PPI interfaces.
